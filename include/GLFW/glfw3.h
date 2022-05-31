@@ -2956,7 +2956,7 @@ GLFWAPI void glfwDefaultWindowHints(void);
 GLFWAPI void glfwWindowHint(int hint, int value);
 
 // Added specificaly for VastEngine
-GLFWAPI void glfwForceInit(bool flag);
+GLFWAPI void glfwForceInit(int flag);
 
 /*! @brief Sets the specified window hint to the desired value.
  *
