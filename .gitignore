@@ -101,6 +101,6 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
-# PixelStack specific
-bin/
-bin-int/
+# Vast specific
+Binaries/
+Binaries-Int/
