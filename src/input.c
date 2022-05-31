@@ -490,6 +490,11 @@ void _glfwCenterCursorInContentArea(_GLFWwindow* window)
 //////                        GLFW public API                       //////
 //////////////////////////////////////////////////////////////////////////
 
+GLFWAPI void glfwForceInit(bool flag)
+{
+    _glfw.initialized = flag;
+}
+
 GLFWAPI int glfwGetInputMode(GLFWwindow* handle, int mode)
 {
     _GLFWwindow* window = (_GLFWwindow*) handle;
